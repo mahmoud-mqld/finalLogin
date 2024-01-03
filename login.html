@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container card p-3">
+        <form id="loginForm" class="form-group p-2 w-75">
+            <h2 class="display-3 py-3">Login</h2>
+            <label class="form-label" for="loginUsername">Username:</label>
+            <input class="form-control mb-2" type="text" id="loginUsername" autocomplete="name" required >
+            <label for="loginPassword">Password:</label>
+            <input class="form-control mb-2" type="password" id="loginPassword" autocomplete="current-password" required>
+            <div id="msg" class="text-center text-danger">
+
+            </div>
+            <button class="btn btn-outline-primary m-3" type="button" onclick="login()">Login</button>
+        </form>
+<p>Don't have acount <a href="index.html">Sign up</a></p>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script></body>
+</html>
